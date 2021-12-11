@@ -1,0 +1,135 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #6c7279;
+	
+
+}
+.content{
+
+}
+
+/*HEADER
+===================================================*/
+
+.header{
+
+height: 750px;
+background: url('../img/Layer_34.png') 0 0 no-repeat;
+}
+.header__top{
+display: flex;
+width: 100%;
+max-width: 1170px;
+margin: 0 auto;
+padding: 35px 0;
+justify-content: space-between;
+border-bottom: 1px solid #50536a;
+
+}
+
+.header__top_logo{
+
+}
+ .nav{
+  
+ }
+ .nav__link{
+opacity: 0.75;
+color: #ffffff;
+font-size: 13px;
+font-weight: 700;
+text-align: left;
+text-transform: uppercase;
+margin-left: 35px;
+ }
+.nav__link:hover{
+	opacity: 1;
+}
+
+
+
+ .text{
+
+ }
+ .text_big{
+ 	padding: 150px 520px 35px 520px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 65px;
+font-weight: 700;
+line-height: 71px;
+text-align: center;
+text-transform: uppercase;
+ }
+ .text_small{
+color: #ffffff;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+text-align: center;
+margin-bottom: 80px;
+ }
+ .bottom{
+
+width: 200px;
+height: 46px;
+background-color: #e84545;
+margin: 0 auto;
+padding: 18px 50px ;
+
+
+ }
+ .a_one{
+
+ 	color: #ffff;
+    font-family: "Raleway - Semi Bold";
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    opacity: 1;
+    
+ }
+ .a_one:hover{
+ 	text-decoration: underline;
+ }
